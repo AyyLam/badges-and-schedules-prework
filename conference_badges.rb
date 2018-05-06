@@ -20,4 +20,5 @@ def assign_rooms(speakers)
   return room_assignments
 end
 
-def 
+def printer
+  for 
