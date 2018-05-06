@@ -4,7 +4,7 @@ end
 
 def batch_badge_creator(names) 
   badge_messages = []
-  for name in names 
+  for name in names do
     badge_messages.push(badge_maker(name))
   end 
   return badge_messages
