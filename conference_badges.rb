@@ -14,7 +14,7 @@ end
 def assign_rooms(speakers) 
   room_assignments = []
   for room in 1..speakers.size do
-    assignment = "Hello, #{speakers[room-1]}! You'll be assigned to room #{room}" 
+    assignment = "Hello, #{speakers[room-1]}! You'll be assigned to room #{room}!" 
     room_assignments.push(assignment) 
   end
 end
